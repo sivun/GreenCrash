@@ -56,8 +56,6 @@ import java.util.Properties;
 /***
  * 扑捉崩溃信息
  *
- * @author sivun
- *
  */
 public class CrashReporter implements UncaughtExceptionHandler {
 

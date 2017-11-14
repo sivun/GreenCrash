@@ -34,8 +34,6 @@ import java.io.InputStreamReader;
 
 /**
  * 报错日志显示界面（面向开发者）
- *
- * @author xiexingwu
  */
 public class CrashReportActivity extends Activity {
     /**
