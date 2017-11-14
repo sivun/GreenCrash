@@ -5,15 +5,18 @@
 1.本地引入aar包：[greencrath-release.aar下载](https://github.com/sivun/GreenCrash/blob/master/greencrath-release.aar)
   
 2.在你的接入module的 AndroidManifest.xml中确保添加权限 
+
   ` <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`
 
 3.在您的主module的 AndroidManifest.xml 中添加activity（用于显示crash异常log日志）
+
    `<activity
             android:name="com.sivun.greencrath.CrashReportActivity"
             android:screenOrientation="portrait" />`
 
 4.在您的主module对应的 `Application `的 `onCreate `方法中添加初始化代码
+
   ` new CrashReporter(this).crashResources()
                 .putInt(CrashReporter.RES_NOTIF_ICON, R.drawable.ic_launcher)`
 
