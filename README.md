@@ -12,7 +12,8 @@
 ``` vue 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    ``` 
+``` 
+
 3.在您的主module的 AndroidManifest.xml 中添加activity（用于显示crash异常log日志）
 
  ``` vue
