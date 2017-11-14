@@ -23,7 +23,7 @@
  ``` 
 
 4.在您的主module对应的 `Application `的 `onCreate `方法中添加初始化代码
-``` vue
+``` java
 new CrashReporter(this).crashResources()
                 .putInt(CrashReporter.RES_NOTIF_ICON, R.drawable.ic_launcher)
 ``` 
