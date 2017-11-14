@@ -6,9 +6,7 @@ import android.os.Bundle
 import android.widget.TextView
 import com.sivun.greencrath.CrashReporter
 
-/**
- * Created by xiexingwu on 2017/11/14.
- */
+
 open class DemoActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
